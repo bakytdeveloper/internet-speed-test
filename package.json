@@ -1,13 +1,13 @@
 {
   "name": "internet-speed-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A lightweight CLI tool for measuring download speed from a URL.",
   "type": "module",
-  "private": false,
   "engines": {
     "node": ">=24.20.0"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "node src/index.js"
   }
 }
